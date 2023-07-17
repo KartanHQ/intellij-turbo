@@ -13,10 +13,18 @@
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
+    <depends>JavaScript</depends>
+
+    <!-- The base resource bundle for localizing messages in the plugin. -->
+    <resource-bundle>messages.TurboBundle</resource-bundle>
 
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-
+        <!-- works in WebStorm and other SmallIDEs -->
+        <directoryProjectGenerator implementation="com.nekofar.milad.intellij.turbo.cli.TurboCliProjectGenerator" />
+        <projectTemplatesFactory implementation="com.nekofar.milad.intellij.turbo.cli.TurboProjectTemplateFactory"/>
+        <!-- works in new IDEA wizard -->
+        <moduleBuilder builderClass="com.nekofar.milad.intellij.turbo.cli.TurboCliProjectModuleBuilder" />
     </extensions>
 </idea-plugin>
