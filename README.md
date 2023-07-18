@@ -1,7 +1,7 @@
 # IntelliJ Turbo Plugin
 
-[![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/v/00000-turbo)](https://plugins.jetbrains.com/plugin/00000-turbo)
-[![JetBrains plugins](https://img.shields.io/jetbrains/plugin/d/00000-turbo)](https://plugins.jetbrains.com/plugin/00000-turbo/versions)
+[![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/v/22294-turbo)](https://plugins.jetbrains.com/plugin/22294-turbo)
+[![JetBrains plugins](https://img.shields.io/jetbrains/plugin/d/22294-turbo)](https://plugins.jetbrains.com/plugin/22294-turbo/versions)
 [![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/KartanHQ/intellij-turbo/build.yml?branch=master)](https://github.com/KartanHQ/intellij-turbo/actions/workflows/build.yml)
 [![GitHub](https://img.shields.io/github/license/KartanHQ/intellij-turbo)](https://github.com/KartanHQ/intellij-turbo/blob/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/badge/follow-%40nekofar-1DA1F2?logo=twitter&style=flat)](https://twitter.com/nekofar)
